@@ -9,7 +9,7 @@ export interface Member {
 }
 
 export const getMember = async() => {
-    const result = await axiosInstance.get<Member>('/admin/members');
+    const result = await axiosInstance.get<Member[]>('/admin/members');
     return result.data;
 };
 
