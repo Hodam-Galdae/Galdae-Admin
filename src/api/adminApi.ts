@@ -16,4 +16,4 @@ export const getMember = async() => {
 export const accept = async(id: string) => {
     const result = await axiosInstance.post('/admin/check', {id});
     return result.data;
-}
+};

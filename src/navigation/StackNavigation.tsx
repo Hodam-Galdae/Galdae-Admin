@@ -9,7 +9,6 @@ const StackNavigation = () => {
 
 	const customStackNavigationOptions: StackNavigationOptions = {
         gestureEnabled: false,
-        title: '',
         headerStyle: {
             backgroundColor: '#209bec',
         },
